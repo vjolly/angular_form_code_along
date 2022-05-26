@@ -30,7 +30,7 @@
 
     <div class="form-group">
         <label>Hobbies</label>
-        <select class="form-control" name="hobbies" [(ngModel)]="hobbies">
+        <select class="form-control" name="hobbies" [(ngModel)]="model.hobbies">
             <option value="">Select an option</option>
             <option *ngFor="let hoby of Hobbies" [value]="hoby">
                 {{hoby}}
